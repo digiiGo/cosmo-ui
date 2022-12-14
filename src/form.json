@@ -1,0 +1,68 @@
+{
+    "title": "User Data",
+    "subtitle": "College",
+    "pages": [
+        {
+            "user_id": 1,
+            "pageTitle": "Basic info",
+            "questions": [
+                {
+                    "id": "// our unique ID",
+                    "user_id": 1,
+                    "type": "radio",
+                    "questionName": "// reason it",
+                    "question": "",
+                    "options": [
+                        {
+                            "id": 1,
+                            "option": "option1",
+                            "default": true
+                        },
+                        {
+                            "id": 2,
+                            "option": "option2",
+                            "default": "true // json validator t"
+                        },
+                        {
+                            "id": 3,
+                            "option": "option3"
+                        },
+                        {
+                            "id": 4,
+                            "option": "option4"
+                        }
+                    ],
+                    "isRequired": true
+                },
+                {
+                    "id": "// our unique ID",
+                    "user_id": 1,
+                    "type": "radio",
+                    "questionName": "// reason it",
+                    "question": "",
+                    "options": [
+                        {
+                            "id": 1,
+                            "option": "option1",
+                            "default": true
+                        },
+                        {
+                            "id": 2,
+                            "option": "option2",
+                            "default": "true // json validator t"
+                        },
+                        {
+                            "id": 3,
+                            "option": "option3"
+                        },
+                        {
+                            "id": 4,
+                            "option": "option4"
+                        }
+                    ],
+                    "isRequired": true
+                }
+            ]
+        }
+    ]
+}
