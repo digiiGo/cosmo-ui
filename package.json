@@ -1,0 +1,62 @@
+{
+  "name": "jsonform",
+  "version": "1.0.0",
+  "description": "json to form",
+  "main": "index.js",
+  "scripts": {
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*": [
+      "npm run format"
+    ]
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digiiGo/cosmo-ui/tree/main"
+  },
+  "keywords": [
+    "json",
+    "to",
+    "form"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "author": "open-source",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.1"
+  }
+}
